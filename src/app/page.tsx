@@ -70,13 +70,13 @@ export default function Home() {
             gift in my life. Our love grows deeper and stronger, and Im grateful
             for every moment we share.
           </p>
-          <Card className="px-4 py-2 bg-stone-800 border-stone-800">
-            <h2 className="text-lg font-bold text-center text-primary">
+          <Card className="px-4 py-2 bg-yellow-500 border-yellow-500 mt-10">
+            <h2 className="text-lg font-bold text-center text-stone-800">
               {year} Years, {month} Months, {day} Days
             </h2>
           </Card>
-          <Card className="px-4 py-2 bg-stone-800 border-stone-800">
-            <h2 className="text-sm font-bold text-primary">
+          <Card className="px-3 py-2 bg-yellow-500 border-yellow-500">
+            <h2 className="text-sm font-bold text-stone-800">
               {hour} : {minute} : {second}
             </h2>
           </Card>
