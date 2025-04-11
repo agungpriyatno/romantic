@@ -10,6 +10,7 @@ export default function Home() {
   const [month, setMonth] = useState<number>(0);
   const [day, setDay] = useState<number>(0);
   const [hour, setHour] = useState<number>(0);
+
   const [minute, setMinute] = useState<number>(0);
   const [second, setSecond] = useState<number>(0);
 
@@ -63,7 +64,7 @@ export default function Home() {
           className=" object-cover -z-10"
         />
         <div className="w-full h-screen flex flex-col justify-end place-items-center gap-4 px-4 pb-[25%]">
-          <h1 className="text-4xl font-bold text-white">Happy Aniversary</h1>
+          <h1 className="text-4xl font-bold text-white">Happy Anniversary</h1>
           <p className="text-lg text-white text-center max-w-md">
             Happy anniversary, my love. Every year with you is the most precious
             gift in my life. Our love grows deeper and stronger, and Im grateful

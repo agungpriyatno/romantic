@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Agung & Echa",
-  description: "Happy Aniversary",
+  description: "Happy Anniversary",
 };
 
 export default function RootLayout({
